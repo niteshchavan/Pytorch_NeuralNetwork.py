@@ -1,0 +1,9 @@
+This code imports required libraries/modules and then connects to a MySQL database. After that, it defines a neural network architecture using PyTorch.
+
+The neural network has two fully connected layers with 16 and 4 nodes respectively, and uses the Rectified Linear Unit (ReLU) activation function.
+
+The code then loads and preprocesses the dataset by executing a MySQL query to fetch the data, and converting the fetched data into a PyTorch tensor. The data is then normalized using mean and standard deviation, and split into input and label tensors.
+
+Next, the neural network is created and an optimizer is defined for updating the network parameters during training. The training process is performed for a specified number of epochs, with the optimizer minimizing the Mean Squared Error (MSE) loss between the predicted and actual labels.
+
+Finally, the trained neural network is used to predict the next day's closing price. The predicted value is denormalized to obtain the actual predicted closing price, which is printed to the console.
