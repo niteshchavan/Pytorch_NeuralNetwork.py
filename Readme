@@ -7,3 +7,7 @@ The code then loads and preprocesses the dataset by executing a MySQL query to f
 Next, the neural network is created and an optimizer is defined for updating the network parameters during training. The training process is performed for a specified number of epochs, with the optimizer minimizing the Mean Squared Error (MSE) loss between the predicted and actual labels.
 
 Finally, the trained neural network is used to predict the next day's closing price. The predicted value is denormalized to obtain the actual predicted closing price, which is printed to the console.
+
+
+install Pytorch on raspberypi 4
+https://qengineering.eu/install-pytorch-on-raspberry-pi-4.html
